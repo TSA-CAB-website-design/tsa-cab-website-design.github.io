@@ -216,9 +216,6 @@ a:active, button:active {
         padding: 0px 12.5%;
         width: 75%;
     }
-    p {
-        font-size: 32px;
-    }
     header {
         width: 75%;
         margin: 10px 12.5%;
@@ -230,10 +227,6 @@ a:active, button:active {
         object-fit: cover;
         justify-self: center;
         margin: 0;
-    }
-
-    a{
-        font-size: 24px;
     }
     
     .imgleft, .imgright {
