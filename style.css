@@ -161,6 +161,10 @@ footer a:hover {
     flex-grow: 1;
     object-fit: cover;
     justify-self: center;
+    transition: scale 0.1s ease;
+}
+.fleximg:hover {
+    scale: 1.125;
 }
 .realcont {
     display: flex;
