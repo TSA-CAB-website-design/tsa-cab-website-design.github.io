@@ -76,6 +76,7 @@ iframe {
     text-align: center;
     font-weight: bold;
     align-items: center;
+    font-size: 45px;
 }
 
 .nav {
@@ -179,20 +180,22 @@ footer a:hover {
 
 .imgright {
     width: 50%;
-    height: fit-content;
+    height: auto;
     z-index: 100;
     float: right;
     shape-outside: inset();
     display: block;
+    object-fit: contain;
 }
 
 .imgleft {
     width: 50%;
-    height: fit-content;
+    height: auto;
     z-index: 100;
     float: left;
     shape-outside: inset(-20px -20px -20px -20px);
     display: block;
+    object-fit: contain;
 }
 
 .floating-corner-btn {
